@@ -11,6 +11,8 @@
   "type": "commonjs",
   "description": "",
   "devDependencies": {
-    "cypress": "^15.7.1"
+    "cypress": "^15.7.1",
+    "cypress-dotenv": "^3.0.1",
+    "dotenv": "^17.2.3"
   }
 }
