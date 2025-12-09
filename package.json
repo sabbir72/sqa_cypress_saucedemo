@@ -11,6 +11,8 @@
   "type": "commonjs",
   "description": "",
   "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.41.2",
+    "allure-commandline": "^2.35.0",
     "cypress": "^15.7.1",
     "cypress-dotenv": "^3.0.1",
     "dotenv": "^17.2.3"
