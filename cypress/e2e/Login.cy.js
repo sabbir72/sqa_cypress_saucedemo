@@ -8,7 +8,8 @@ describe('Login Test', () => {
     cy.log('Logged in successfully');
     cy.contains('Products').should('be.visible');
   });
-
+  //  hello
+  
   it('Check select product', () => {
     cy.get('img[data-test="inventory-item-sauce-labs-backpack-img"]').click();
     // aasert that we are on the product detail page
@@ -19,6 +20,8 @@ describe('Login Test', () => {
       cy.log("Price found: " + $price.text());
     });
   });
+
+
 
   it('Add to Cart', () => {
     cy.get('[data-test="inventory-item-sauce-labs-backpack-img"]').click();
@@ -32,7 +35,7 @@ describe('Login Test', () => {
 
   });
   
-  
+
   it('Cart check', () => {
     cy.get('[data-test="inventory-item-sauce-labs-backpack-img"]').click();
     cy.get('button[data-test="add-to-cart"]').click();
