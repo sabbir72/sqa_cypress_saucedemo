@@ -32,6 +32,7 @@ describe('Login Test', () => {
 
   });
   
+  
   it('Cart check', () => {
     cy.get('[data-test="inventory-item-sauce-labs-backpack-img"]').click();
     cy.get('button[data-test="add-to-cart"]').click();
